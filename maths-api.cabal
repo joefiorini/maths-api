@@ -21,6 +21,10 @@ library
                      , servant-server
                      , wai
                      , warp
+                     , time
+                     , transformers >= 0.4
+                     , either >= 4.4
+                     , split
   default-language:    Haskell2010
 
 executable maths-api-exe
